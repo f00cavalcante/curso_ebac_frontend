@@ -1,0 +1,95 @@
+/* Default
+     definições padrões para o HTML que serão aplicadas a todo o projeto
+     os tamanhos utilizarão unidades relativas (REM) como tamanho padrão inicial 16px 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+     --font_default: "Roboto", sans-serif;
+     --color_background: #191919;
+     --color_background_input: #707070;
+     --color_font_default: #eaeaea;
+}
+
+html {
+     font-family: var(--font_default);
+     font-size: 16px;
+     font-weight: 300;
+}
+
+body {
+     background-color: var(--color_background);
+     color: var(--color_font_default);
+}
+
+body > h1.titulo_formulario {
+     font-size: 3rem;
+     font-weight: 500;
+     margin: 10rem auto;
+     padding: 2.5rem 0;
+     text-align: center;
+     width: 100vw;
+}
+
+body > form.formulario_cadastro {
+     align-items: center;
+     /* border: 0.125rem solid var(--color_background); */
+     /* border-radius: 0.5rem; */
+     display: flex;
+     flex-flow: column wrap;
+     gap: 1rem;
+     justify-content: center;
+     margin: auto;
+     padding: 5rem 0;
+     width: 30vw;
+}
+
+body > form.formulario_cadastro > div.formulario_geral {
+     align-items: center;
+     display: flex;
+     flex-flow: line nowrap;
+     gap: 0.75rem;
+}
+
+body
+     > form.formulario_cadastro
+     > div.formulario_geral
+     > div.formulario_cadastro__div_coluna_formulario {
+     display: flex;
+     flex-flow: column nowrap;
+     font-size: 1.25rem;
+     gap: 1rem;
+}
+body
+     > form.formulario_cadastro
+     > div.formulario_geral
+     > div.formulario_cadastro__div_labels {
+     text-align: right;
+}
+
+body
+     > form.formulario_cadastro
+     > div.formulario_geral
+     > div.formulario_cadastro__div_inputs
+     > input.formulario_cadastro__div_coluna_formulario__input_cadastro {
+     background-color: var(--color_background_input);
+     border-radius: 0.5rem;
+     font-family: var(--font_default);
+     font-size: 1rem;
+     font-weight: 500;
+     padding-left: 0.25rem;
+}
+
+body
+     > form.formulario_cadastro
+     > input.formulario_cadastro__input_buton_cadastrar {
+     background-color: var(--color_font_default);
+     border-radius: 0.5rem;
+     font-family: var(--font_default);
+     font-size: 0.75rem;
+     font-weight: 500;
+     margin-top: 1.5rem;
+     padding: 0.5rem 1.75rem;
+     text-transform: uppercase;
+}
