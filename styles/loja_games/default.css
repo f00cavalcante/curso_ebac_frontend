@@ -1,0 +1,24 @@
+section.loja_games__section {
+     margin: 2.5rem auto;
+     max-width: 1366px;
+     width: 100%;
+}
+
+h2.loja_games__section__titulo_h2 {
+     font-size: 1.5rem;
+     font-weight: 400;
+     text-align: justify;
+}
+
+h3.loja_games__section__titulo_h3 {
+     font-size: 1rem;
+     font-weight: 300;
+     text-align: justify;
+}
+
+p.loja_games__section__paragrafo {
+     font-size: 1rem;
+     letter-spacing: 1.5px;
+     line-height: 1.5rem;
+     text-align: justify;
+}
