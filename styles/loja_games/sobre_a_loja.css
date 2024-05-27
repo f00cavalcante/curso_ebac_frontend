@@ -1,0 +1,39 @@
+section.loja_games__sobre {
+     align-items: flex-start;
+     display: flex;
+     flex-flow: line nowrap;
+     gap: 2rem;
+     margin: 2.5rem auto;
+}
+
+section.loja_games__sobre > img.loja_games__sobre_imagem_fachada_loja {
+     border-radius: 16px;
+}
+
+section.loja_games__sobre
+     div.loja_games__sobre__container
+     > h2.loja_games__sobre__titulo {
+     margin-bottom: 2rem;
+}
+
+section.loja_games__sobre
+     div.loja_games__sobre__container
+     > p.loja_games__sobre__paragrafo {
+     margin: 1rem 0;
+}
+
+section.loja_games__sobre
+     div.loja_games__sobre__container
+     > ul.loja_games__sobre__lista_imagens
+     > li.loja_games__sobre__lista_imagens__itens_imagens {
+     display: inline;
+}
+
+section.loja_games__sobre
+     > div.loja_games__sobre__container
+     > ul.loja_games__sobre__lista_imagens
+     > li.loja_games__sobre__lista_imagens__itens_imagens
+     > img.loja_games__sobre__lista_imagens__itens_imagens__logos {
+     height: 24px;
+     margin-right: 1rem;
+}

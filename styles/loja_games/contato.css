@@ -1,0 +1,174 @@
+body.body_loja_games > section.loja_games__contato {
+     display: flex;
+     flex-flow: column nowrap;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > h2.loja_games__contato__titulo {
+     margin-bottom: 1.5rem;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral {
+     align-items: start;
+     display: flex;
+     flex-flow: line nowrap;
+     gap: 2.5rem;
+     justify-content: space-between;
+     width: 100%;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     h3.loja_games__contato__subtitulo {
+     font-size: 1.25rem;
+     font-weight: 500;
+     margin-bottom: 2.5rem;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_gera__secoes {
+     max-width: 455px;
+     width: 100%;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco {
+     display: flex;
+     flex-flow: column nowrap;
+     gap: 0.5rem;
+     margin-top: 1rem;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > input.loja_games__contato__formulario_fale_conosco__input {
+     background-color: white;
+     border-radius: 0.5rem;
+     color: var(--raisin-black);
+     font-family: var(--font_default);
+     font-size: 0.9rem;
+     height: 1.5rem;
+     padding: 0.5rem;
+}
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > input.loja_games__contato__formulario_fale_conosco__input:focus {
+     outline-color: var(--battleship-gray-1);
+     outline-style: solid;
+}
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > input.loja_games__contato__formulario_fale_conosco__input::placeholder {
+     color: var(--battleship-gray-1);
+     font-family: var(--font_default);
+     font-size: 0.9rem;
+     padding-left: 0.25rem;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > textarea.loja_games__contato__formulario_fale_conosco__textarea {
+     background-color: white;
+     border-radius: 0.5rem;
+     color: var(--raisin-black);
+     font-family: var(--font_default);
+     font-size: 0.9rem;
+     height: 10rem;
+     padding: 0.5rem;
+     resize: none;
+     text-align: justify;
+}
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > textarea.loja_games__contato__formulario_fale_conosco__textarea:focus {
+     outline-color: var(--battleship-gray-1);
+     outline-style: solid;
+}
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > textarea.loja_games__contato__formulario_fale_conosco__textarea::placeholder {
+     color: var(--battleship-gray-1);
+     font-family: var(--font_default);
+     font-size: 0.9rem;
+     padding-left: 0.25rem;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > button.loga_games__contato__formulario_fale_conosco_button_enviar {
+     background-color: white;
+     border-radius: 0.5rem;
+     cursor: pointer;
+     font-size: 0.75rem;
+     font-weight: 500;
+     height: 1.5rem;
+     text-transform: uppercase;
+}
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_fale_cosnosco
+     > form.loja_games__contato__formulario_fale_conosco
+     > button.loga_games__contato__formulario_fale_conosco_button_enviar:hover {
+     background-color: var(--battleship-gray-1);
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_redes_sociais
+     > ul.loja_games__contato__lista_redes_sociais {
+     margin-top: 1rem;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_redes_sociais
+     > ul.loja_games__contato__lista_redes_sociais
+     > li.loja_games__contato__lista_redes_sociais__itens {
+     display: inline;
+     margin-right: 0.5rem;
+     padding: 1rem;
+}
+
+body.body_loja_games
+     > section.loja_games__contato
+     > div.loja_games__contato__container_geral
+     > div.container_redes_sociais
+     > ul.loja_games__contato__lista_redes_sociais
+     > li.loja_games__contato__lista_redes_sociais__itens
+     > a.loja_games__contato__lista_redes_sociais__itens__links
+     > img {
+     height: 36px;
+}
