@@ -50,6 +50,8 @@ body.body_loja_games > footer.loja_games__rodape {
      background-color: var(--battleship-gray-1);
      color: var(--raisin-black);
      padding: 1rem;
+     position: absolute;
+     top: 95.5vh;
      width: 100vw;
 
 }
