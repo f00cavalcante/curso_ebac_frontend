@@ -1,0 +1,61 @@
+body.body_modulo_02 > h1.modulo_02__titulo {
+     font-size: 2.5rem;
+     font-weight: 500;
+     margin: 3rem 0;
+     padding: 1.5rem;
+     text-align: center;
+}
+
+body.body_modulo_02 > section.modulo_02__section {
+     margin: 10rem auto 5rem auto;
+     max-width: 1366px;
+     width: 100%;
+}
+
+body.body_modulo_02
+     > section.modulo_02__section
+     > article.modulo_02__section__article {
+     margin: 3rem 0;
+}
+
+body.body_modulo_02
+     > section.modulo_02__section
+     > article.modulo_02__section__article
+     > h2.modulo_02__section__article__titulo {
+     font-size: 1.75rem;
+     font-weight: 500;
+     margin: 3rem 0;
+     padding: 1rem;
+     text-align: center;
+}
+
+body.body_modulo_02
+     > section.modulo_02__section
+     > article.modulo_02__section__article
+     p.modulo_02__section__article__paragrafo {
+     line-height: 1.5rem;
+     margin-bottom: 1rem;
+     text-align: justify;
+}
+
+body.body_modulo_02
+     > section.modulo_02__section
+     > article.modulo_02__section__article
+     p.modulo_02__section__article__paragrafo
+     > a {
+     color: var(--crimson);
+     text-decoration: none;
+}
+
+body.body_modulo_02 > section.modulo_02__section ul {
+     list-style: circle;
+     margin-left: 2.5rem;
+     padding: 1rem;
+}
+
+body.body_modulo_02 > section.modulo_02__section li {
+     line-height: 1.5rem;
+     margin-bottom: 1rem;
+     padding-left: 1rem;
+     text-align: justify;
+}
