@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="stylesheet" href="../reset.css" />
+          <link rel="stylesheet" href="../style.css" />
+
+          <title>MUDAR O NOME</title>
+     </head>
+     <body class="body_modulo_02">
+          <header class="cabecalho">
+               <nav class="cabecalho__menu">
+                    <ul class="cabecalho__menu__lista">
+                         <li class="cabecalho__menu__lista__itens">
+                              <a
+                                   href=""
+                                   class="cabecalho__menu__lista__itens__link"
+                                   >Homepage</a
+                              >
+                         </li>
+                         <li class="cabecalho__menu__lista__itens">
+                              <a
+                                   href=""
+                                   class="cabecalho__menu__lista__itens__link"
+                                   >Sobre mim</a
+                              >
+                         </li>
+                    </ul>
+               </nav>
+          </header>
+          <section class="modulo_02__introducao_git">
+               <p>
+                    O Git refere-se a um controle de versão para revisão de
+                    códigos distribuídos. Desta forma, torna-se possível
+                    realizar o compartilhamento de conteúdos entre os envolvidos
+                    no projeto, e cada pessoa possui a capacidade de criar
+                    ramificações de um código principal, e depois mercar todas
+                    as alterações sem prejudicar os processos dos demais
+                    contribuintes.
+               </p>
+               <p>
+                    Por meio do Git, é possível que cada pessoa possa contribuir
+                    com o mesmo projeto independentemente de sua geolocalização,
+                    não havendo então, a necessidade de necessariamente estarem
+                    conectados à mesma rede.
+                    <br />
+                    Aqui, iremos descrever brevemente alguns principais comandos
+                    Git, e o que é possível executar com cada um deles.
+               </p>
+               <article class="modulo_02__introducao_git__article">
+                    <h2 class="modulo_02__introducao_git__article__titulo">
+                         git init
+                    </h2>
+                    <p>
+                         Este comando é utilizado para inicializar um
+                         repositório Git. Isto significa efetuar o início do
+                         controle de versão dentro de determinado repositório,
+                         submetendo todos seus arquivos a um histórico de
+                         versões.
+                    </p>
+                    <p>
+                         O comando irá criar um subdiretório oculto .git, e nele
+                         fará o armazenamento de todos estes controles. Caso o
+                         comando seja executado dentro de algum repositório já
+                         versionado com Git, não haverá problemas, pois não
+                         acontecerá a substituição, ou reset, de todos os dados.
+                         <br />
+                         O Git é inteligente o suficiente para compreender que
+                         já existe algum controle ativo.
+                    </p>
+                    <p>A sintaxe deste comando é git init.</p>
+               </article>
+               <article class="modulo_02__introducao_git__article">
+                    <h2 class="modulo_02__introducao_git__article__titulo">
+                         git branch
+                    </h2>
+                    <p>
+                         Este comando cria ramificações de determinada versão do
+                         repositório gerenciado pelo Git.
+                    </p>
+                    <p>
+                         Criar uma ramificação de um código principal seria uma
+                         forma do Git proporcionar seu controle de versão. Desta
+                         maneira, será possível efetuar edições no código
+                         "copiado" sem correr o risco que este afete o "ramo
+                         principal".
+                    </p>
+                    <p>
+                         Através desta opção, duas pessoas diferentes podem
+                         trabalhar em um mesmo código, desenvolvendo
+                         funcionalidades diferentes, sem que uma afete a oura.
+                         Após concluir, basta mesclar as versões criadas, e
+                         pronto.
+                    </p>
+                    <p>A sintaxe do comando é git nome_da_brach.</p>
+                    <p
+                         class="modulo_02__introducao_git__article__paragrafo"
+                    ></p>
+               </article>
+               <article class="modulo_02__introducao_git__article">
+                    <h2 class="modulo_02__introducao_git__article__titulo">
+                         git add
+                    </h2>
+                    <p>
+                         Este comando irá efetuar a adição dos
+                         arquivos/conteúdos modificados em determinada branch ao
+                         índice (stage).
+                    </p>
+                    <p>
+                         O conteúdo adicionado ao índice (stage) estará pronto,
+                         "reservado", dentro da ramificação criada, pronto para
+                         receber o commit, e poder ser mesclado ao "ramo
+                         pricipal".
+                         <br />
+                         Todo commit precisa conter arquivos adicionado ao
+                         índice (stage), poranto, este comando sempre deverá ser
+                         executado antes.
+                         <br />
+                         Este comando poderá ser executado várias vezes durante
+                         as modificações implementadas dentro de determinada
+                         branch, para que o índice possa ser atualizado,
+                         inserindo ou removendo os conteúdos, conforme a
+                         necessidade.
+                    </p>
+                    <p>A sintaxe do comando é git add.</p>
+                    <p
+                         class="modulo_02__introducao_git__article__paragrafo"
+                    ></p>
+               </article>
+               <article class="modulo_02__introducao_git__article">
+                    <h2 class="modulo_02__introducao_git__article__titulo">
+                         git commit
+                    </h2>
+                    <p>
+                         Este comando irá efetuar a gravação das alterações em
+                         determinda branch, dentro do repositório Git.
+                    </p>
+                    <p>
+                         O commit será responsável por gravar as alterações
+                         salvas no índice (stage), preparando seu conteúdo para
+                         ser mesclado a branch principal.
+                         <br />
+                         Por este motivo, o commit sempre deverá ser executado
+                         após o git add.
+                         <br />
+                         Por boas práticas, o commit sempre precisará conter uma
+                         mensagem clara sobre suas modificações, e o resultado
+                         que é esperado atingir com elas. Isto facilitará o
+                         processo de documentação, para consultas futuras, bem
+                         como, a avaliação do conteúdo por outras pessoas que
+                         estejam envovlidas no mesmo projeto.
+                    </p>
+                    <p>Sua sintaxe é git commit.</p>
+                    <p
+                         class="modulo_02__introducao_git__article__paragrafo"
+                    ></p>
+               </article>
+               <article class="modulo_02__introducao_git__article">
+                    <h2 class="modulo_02__introducao_git__article__titulo">
+                         git push
+                    </h2>
+                    <p
+                         class="modulo_02__introducao_git__article__paragrafo"
+                    ></p>
+               </article>
+               Mais informações sobre o GIT https://git-scm.com/docs/git/pt_BR
+          </section>
+          <footer class="rodape">
+               <!-- <div class="rodape__container">
+                    <p class="rodape__container__paragrafo">Sobre o projeto</p>
+               </div> -->
+               <ul class="rodape__lista">
+                    <li class="rodape__lista__itens">
+                         Desenvolvido por f00Cavalcante - 2024
+                    </li>
+                    <li class="rodape__lista__itens">Sobre o projeto</li>
+               </ul>
+          </footer>
+     </body>
+</html>

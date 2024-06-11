@@ -9,6 +9,11 @@
 /* formulário de cadastro */
 @import url(./styles/formulario_cadastro.css);
 
+/* módulo 02 */
+@import url(./styles/modulo_02/default.css);
+@import url(./styles/modulo_02/header_and_footer.css);
+@import url(./styles/modulo_02/section_modulo_02__introducao_git.css);
+
 /* loja de games */
 @import url(./styles/loja_games/default.css);
 @import url(./styles/loja_games/cabecalho_e_rodape.css);
@@ -45,8 +50,12 @@ body {
 }
 
 body.body_index > header.cabecalho_index {
-     padding: 0.5rem 0;
-     margin-bottom: 0.5rem;
+     margin-bottom: 1.5rem;
+     padding: 1rem 0;
+
+     /* ! Lembrar de estudar melhor sobre este conceito */
+     /* position:fixed;
+     top: 0; */
 }
 
 body.body_index > header.cabecalho_index > ul.cabecalho_index__lista {
@@ -151,21 +160,23 @@ body.body_index
 }
 
 footer.rodape_index {
+     bottom: 0;
+     margin-top: 0.5rem;
+     padding: 0.5rem 0;
+     position: fixed;
+     width: 100vw;
+}
+
+footer.rodape_index > div {
      align-items: center;
      display: flex;
      flex-flow: row nowrap;
-     justify-content: end;
-}
-footer.rodape_index {
-     margin-top: 0.5rem;
-     padding: 0.5rem 0;
-     position: relative;
+     justify-content: space-between;
+     padding: 0 1rem;
 }
 
-footer.rodape_index > p.rodape_index__paragrafo {
+footer.rodape_index > div > p.rodape_index__paragrafo {
      font-size: 0.75rem;
      margin-right: 1rem;
      padding: 1rem;
-     position: absolute;
-     top: 25vh;
 }

@@ -1,0 +1,23 @@
+section.modulo_02__sobre_o_exercicio
+     > article.modulo_02__sobre_o_exercicio__article_sobre_o_modulo
+     > p.modulo_02__sobre_o_exercicio__article_sobre_o_modulo__paragrafo
+     > i {
+     font-style: italic;
+}
+
+section.modulo_02__sobre_o_exercicio
+     > article.modulo_02__sobre_o_exercicio__article_sobre_o_modulo
+     > ul.modulo_02__sobre_o_exercicio__article_sobre_o_modulo__lista {
+          list-style: circle;
+          margin-left: 2.5rem;
+     }
+
+section.modulo_02__sobre_o_exercicio
+     > article.modulo_02__sobre_o_exercicio__article_sobre_o_modulo
+     > ul.modulo_02__sobre_o_exercicio__article_sobre_o_modulo__lista
+     li.modulo_02__sobre_o_exercicio__article_sobre_o_modulo__lista__itens {
+     line-height: 1.5rem;
+     margin-bottom: 1rem;
+     padding-left: 1rem;
+     text-align: justify;
+}
