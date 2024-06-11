@@ -47,5 +47,6 @@ body.body_modulo_02
      > footer.rodape
      > ul.rodape__lista
      > li.rodape__lista__itens {
+     font-size: 0.75rem;
      padding: 1rem;
 }

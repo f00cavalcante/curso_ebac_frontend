@@ -97,15 +97,6 @@ body.body_modulo_02
      text-align: center;
 }
 
-body.body_modulo_02
-     > section.modulo_02__introducao_git
-     > article.modulo_02__introducao_git__article_busque_conhecimento
-     > p.modulo_02__introducao_git__article_busque_conhecimento__paragrafo
-     > a {
-     color: var(--crimson);
-     text-decoration: none;
-}
-
 /* Seção: modulo_02__exercicio */
 body.body_modulo_02
      > section.modulo_02__exercicio

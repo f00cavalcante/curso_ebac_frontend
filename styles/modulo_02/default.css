@@ -38,6 +38,15 @@ body.body_modulo_02
      text-align: justify;
 }
 
+body.body_modulo_02
+     > section.modulo_02__section
+     > article.modulo_02__section__article
+     p.modulo_02__section__article__paragrafo
+     > a {
+     color: var(--crimson);
+     text-decoration: none;
+}
+
 body.body_modulo_02 > section.modulo_02__section ul {
      list-style: circle;
      margin-left: 2.5rem;
