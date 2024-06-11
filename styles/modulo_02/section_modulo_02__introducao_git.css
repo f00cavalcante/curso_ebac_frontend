@@ -1,0 +1,173 @@
+/* Seção: modulo_02__sobre_o_exercicio */
+body.body_modulo_02
+     > section.modulo_02__sobre_o_exercicio
+     > article.modulo_02__sobre_o_exercicio__article_sobre_o_modulo
+     > p.modulo_02__sobre_o_exercicio__article_sobre_o_modulo__paragrafo
+     > i {
+     font-style: italic;
+}
+
+/* Seção: modulo_02__introducao_git */
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     > div.modulo_02__introducao_git__article_conceitos_git__container
+     > h3.modulo_02__introducao_git__article_conceitos_git__subtitulo {
+     /* border-bottom: 0.25rem var(--silver) solid; */
+     font-size: 1.25rem;
+     font-weight: 500;
+     margin: 3rem 0 1.5rem 0;
+     padding: 1rem 0;
+     text-align: justify;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     > div.modulo_02__introducao_git__article_conceitos_git__container
+     > div.modulo_02__introducao_git__article_conceitos_git__container__exemplo_codigo {
+     background-color: #0d0b0b6e;
+     border-radius: 1rem;
+     margin: 1rem 0;
+     padding: 2.5rem;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     > div.modulo_02__introducao_git__article_conceitos_git__container
+     > div.modulo_02__introducao_git__article_conceitos_git__container__exemplo_codigo
+     > code {
+     line-height: 2.5rem;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     > div.modulo_02__introducao_git__article_conceitos_git__container
+     > div.modulo_02__introducao_git__article_conceitos_git__container__exemplo_codigo
+     > code
+     > em {
+     color: #f78dbb;
+     padding-right: 0.5rem;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     > div.modulo_02__introducao_git__article_conceitos_git__container
+     > div.modulo_02__introducao_git__article_conceitos_git__container__exemplo_codigo
+     > code
+     > strong.verde {
+     color: #00ff00;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     > div.modulo_02__introducao_git__article_conceitos_git__container
+     > div.modulo_02__introducao_git__article_conceitos_git__container__exemplo_codigo
+     > code
+     > strong.amarelo {
+     color: #cccc00;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     > div.modulo_02__introducao_git__article_conceitos_git__container
+     > div.modulo_02__introducao_git__article_conceitos_git__container__exemplo_codigo
+     > code
+     > small {
+     color: #f78dbb;
+     font-size: 0.95rem;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_conceitos_git
+     p.modulo_02__introducao_git__article__paragrafo
+     > em.modulo_02__introducao_git__article_conceitos_git__paragrafo__formatacao_codigo {
+     background-color: var(--silver);
+     border-radius: 0.5rem;
+     color: var(--raisin-black);
+     font-size: 0.9rem;
+     font-weight: 500;
+     padding: 0.25rem;
+     text-align: center;
+}
+
+body.body_modulo_02
+     > section.modulo_02__introducao_git
+     > article.modulo_02__introducao_git__article_busque_conhecimento
+     > p.modulo_02__introducao_git__article_busque_conhecimento__paragrafo
+     > a {
+     color: var(--crimson);
+     text-decoration: none;
+}
+
+/* Seção: modulo_02__exercicio */
+body.body_modulo_02
+     > section.modulo_02__exercicio
+     > article.modulo_02__exercicio__article
+     > div.modulo_02__exercicio__article__container_code {
+     align-items: flex-start;
+     display: flex;
+     flex-flow: column nowrap;
+     gap: 1.5rem;
+}
+body.body_modulo_02
+     > section.modulo_02__exercicio
+     > article.modulo_02__exercicio__article
+     > div.modulo_02__exercicio__article__container_code {
+     background-color: #0d0b0b6e;
+     border-radius: 1rem;
+     margin: 1rem 0;
+     padding: 2.5rem;
+}
+
+body.body_modulo_02
+     > section.modulo_02__exercicio
+     > article.modulo_02__exercicio__article
+     > div.modulo_02__exercicio__article__container_code
+     > code {
+     line-height: 2.5rem;
+}
+
+body.body_modulo_02
+     > section.modulo_02__exercicio
+     > article.modulo_02__exercicio__article
+     > div.modulo_02__exercicio__article__container_code
+     > code
+     > em {
+     color: #f78dbb;
+     padding-right: 0.5rem;
+}
+
+body.body_modulo_02
+     > section.modulo_02__exercicio
+     > article.modulo_02__exercicio__article
+     > div.modulo_02__exercicio__article__container_code
+     > code
+     > strong.verde {
+     color: #00ff00;
+}
+
+body.body_modulo_02
+     > section.modulo_02__exercicio
+     > article.modulo_02__exercicio__article
+     > div.modulo_02__exercicio__article__container_code
+     > code
+     > strong.amarelo {
+     color: #cccc00;
+}
+
+body.body_modulo_02
+     > section.modulo_02__exercicio
+     > article.modulo_02__exercicio__article
+     > div.modulo_02__exercicio__article__container_code
+     > code
+     > small {
+     color: #f78dbb;
+     font-size: 0.95rem;
+}
