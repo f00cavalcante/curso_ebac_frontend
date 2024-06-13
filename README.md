@@ -1,6 +1,6 @@
 # EBAC Profissão: Engenheiro Front-End - v2
 
-<div style="display: flex; flex-flow: row nowrap; align-itens: center;">
+<div style="display: flex; flex-flow: column nowrap; align-itens: center;">
      <p style="text-align: center;">🚧 ♻︎ ❗️Em construção ❗️ ♻︎ 🚧</p>
      <p style="text-align: center;">🚨 🚃 🚦 🚀 🛰️ 🌋 🌇 🖥️ 🖨️ 📺  👾 👽 🖖🏻 ☔️ 💺</p>
 </div>
