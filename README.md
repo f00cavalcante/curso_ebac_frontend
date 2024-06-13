@@ -1,8 +1,8 @@
 # EBAC Profissão: Engenheiro Front-End - v2
 
-<div>
-     <p style="text-align: center">🚧 ♻︎ ❗️Em construção ❗️ ♻︎ 🚧</p>
-     <p style="text-align: center">🚨 🚃 🚦 🚀 🛰️ 🌋 🌇 🖥️ 🖨️ 📺  👾 👽 🖖🏻 ☔️ 💺</p>
+<div style="display: flex; flex-flow: row nowrap; align-itens: center;">
+     <p style="text-align: center;">🚧 ♻︎ ❗️Em construção ❗️ ♻︎ 🚧</p>
+     <p style="text-align: center;">🚨 🚃 🚦 🚀 🛰️ 🌋 🌇 🖥️ 🖨️ 📺  👾 👽 🖖🏻 ☔️ 💺</p>
 </div>
 
 Este projeto está sendo desenvolvido durante o curos de formação "Engenheiro Front-End" oferecido pela EBAC (Escola Britânica de Artes e Comunicação).
@@ -73,11 +73,11 @@ section {
 Demonstração:
 
 <!-- ![Módulo 05 - Game Shop - Demonstração da propriedade max-width](./images/markdown/modulo_05_loja_games_max-width.gif) -->
-<img src="./images/markdown/modulo_05_loja_games_max-width.gif" style="border-radius: 8px; display: block; margin: auto; width: 75%;">
+<img src="./images/markdown/modulo_05_loja_games_max-width.gif" style="border-radius: 8px; display: block; margin: auto; width: 100%;">
 
 ### Resultado final
 
 <!-- ![Módulo 05 - Game Shop - Resultado Final](./images/markdown/modulo_05_loja_games_resultado_final.png) -->
-<img src="./images/markdown/modulo_05_loja_games_resultado_final.png" style="border-radius: 8px; display: block; margin: auto; width: 75%;">
+<img src="./images/markdown/modulo_05_loja_games_resultado_final.png" style="border-radius: 8px; display: block; margin: auto; width: 100%;">
 
 ## Módulo 06
