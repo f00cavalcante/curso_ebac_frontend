@@ -50,3 +50,19 @@ body.body_modulo_02
      font-size: 0.75rem;
      padding: 1rem;
 }
+
+body.body_modulo_02
+     > footer.rodape
+     > ul.rodape__lista
+     > li.rodape__lista__itens
+     > a {
+     color: var(--silver);
+     text-decoration: none;
+}
+body.body_modulo_02
+     > footer.rodape
+     > ul.rodape__lista
+     > li.rodape__lista__itens
+     > a:hover {
+     color: var(--crimson);
+}
