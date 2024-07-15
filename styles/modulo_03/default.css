@@ -1,0 +1,139 @@
+body.body_modulo_03 > h1.modulo_03__titulo {
+     font-size: 2.5rem;
+     font-weight: 500;
+     margin: 3rem 0;
+     padding: 1.5rem;
+     text-align: center;
+     width: 100vw;
+}
+
+/* body.body_modulo_03 > section.modulo_03__section {
+     align-items: center;
+     display: flex;
+     flex-flow: column nowrap;
+     gap: 3rem;
+} */
+body.body_modulo_03 > section.modulo_03__section {
+     max-width: 720px;
+     width: 100%;
+     margin: 0 auto;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     h2.modulo_03__section__article__titulo {
+     font-size: 1.75rem;
+     font-weight: 500;
+     margin: 3rem 0;
+     padding: 1rem;
+     text-align: center;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     p.modulo_03__section__paragrafo {
+     line-height: 1.5rem;
+     margin-bottom: 1rem;
+     text-align: justify;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     p.modulo_03__section__paragrafo
+     > i {
+     font-style: italic;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     p.modulo_03__section__paragrafo
+     > a {
+     color: var(--silver);
+     text-decoration: none;
+}
+body.body_modulo_03
+     > section.modulo_03__section
+     p.modulo_03__section__paragrafo
+     > a:hover {
+     color: var(--crimson);
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     ul.modulo_03__section__article__lista,
+ul.modulo_03__section__article__lista__sublista {
+     list-style: circle;
+     margin: 1rem 0;
+     padding: 0.5rem 0 0.5rem 1.5rem;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     li.modulo_03__section__article__lista__itens,
+li.modulo_03__section__article__lista__sublista__itens {
+     line-height: 1.5rem;
+     margin-bottom: 1rem;
+     padding-left: 0.5rem;
+     text-align: justify;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe {
+     list-style: none;
+     margin: 0 auto;
+     padding: 0;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe
+     > li.modulo_03__section__article__lista_sintaxe__itens {
+     background-color: #0d0b0b6e;
+     border-radius: 0.5rem;
+     padding: 1.5rem;
+     width: 100%;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe
+     > li.modulo_03__section__article__lista_sintaxe__itens
+     > code {
+     color: #00ff00;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe
+     > li.modulo_03__section__article__lista_sintaxe__itens
+     span {
+     font-weight: 500;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container {
+     margin: 1.5rem 0;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > h3.modulo_03__section__article__subtitulo {
+     font-size: 1.25rem;
+     font-weight: 500;
+     margin: 3rem 0 1.5rem 0;
+     padding: 1rem 0;
+     text-align: justify;
+}
