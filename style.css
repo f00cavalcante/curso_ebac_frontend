@@ -6,13 +6,15 @@
 /* fontes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-/* formulário de cadastro */
-@import url(./styles/formulario_cadastro.css);
-
 /* módulo 02 */
 @import url(./styles/modulo_02/default.css);
 @import url(./styles/modulo_02/header_and_footer.css);
 @import url(./styles/modulo_02/section_modulo_02__introducao_git.css);
+
+/* módulo 03 */
+@import url(./styles/modulo_03/default.css);
+@import url(./styles/modulo_03/header_and_footer.css);
+@import url(./styles/modulo_03/formulario_cadastro.css);
 
 /* loja de games */
 @import url(./styles/loja_games/default.css);
