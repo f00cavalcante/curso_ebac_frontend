@@ -25,34 +25,92 @@ html {
 body {
      background-color: var(--raisin-black);
      color: var(--silver);
-     min-height: 100vh;
+     height: 100vh;
      position: relative;
+     width: 100vw;
 }
 
-/* Layout default */
 header {
-     margin-bottom: 1rem;
-     padding: 1rem;
      top: 0;
+     margin-bottom: 1rem;
+     padding: 1rem 0.125rem;
 }
 
 header > nav > ul {
-     align-items: end;
-     display: flex;
-     flex-flow: column nowrap;
-     gap: 1rem;
-     list-style: none;
-     justify-content: center;
+     list-style-type: none;
+     padding-right: 0.75rem;
 }
 
 header > nav > ul > li {
-     font-size: 0.75rem;
+     font-size: clamp(0.875rem, 0.25rem + 0.50vw, 1.125rem);
+     margin-bottom: 0.5rem;
+     padding: 0.125rem;
+     text-align: right;
+}
+
+a {
+     color: var(--silver);
+     font-size: clamp(0.875rem, 0.25rem + 0.50vw, 1.125rem);
+     text-decoration: none;
+}
+a:hover {
+     background-color: var(--silver);
+     border-radius: 0.5rem;
+     color: var(--raisin-black);
+     font-weight: 500;
+     line-height: 2rem;
+     padding: 0.5rem;
+}
+
+h1 {
+     font-size: clamp(1.5rem, 0.5rem + 1vw, 3rem);
+     line-height: 2rem;
+     padding: 0.25rem 1rem;
+     margin: 1.5rem;
+     text-align: center;
+}
+
+h1 > strong {
+     color: var(--crimson);
+}
+
+h2 {
+     font-size: clamp(1.125rem, 0.5rem + 0.75vw, 2.125rem);
+     line-height: 2rem;
+     padding: 0.25rem 1rem;
+     margin: 1.25rem;
+     text-align: center;
+}
+li {
+     font-size: clamp(0.875rem, 0.25rem + 0.50vw, 1.125rem);
+     padding-bottom: 1rem;
+     text-align: left;
+}
+
+p {
+     font-size: clamp(0.875rem, 0.25rem + 0.50vw, 1.125rem);
+     line-height: 1.75rem;
+}
+
+p > em {
+     font-style: italic;
+}
+
+ul {
+     list-style-type: disc;
+     padding: 1rem 3rem;
+}
+
+section {
+     margin-bottom: 0.25rem;
+     padding: 1rem;
 }
 
 footer {
      bottom: 0;
-     margin-top: 5rem;
-     padding: 1rem;
+     margin-top: 2.5rem;
+     /* padding: 0.5rem; */
+     position: relative;
      width: 100vw;
 }
 
@@ -64,70 +122,47 @@ footer > div {
      justify-content: center;
 }
 
-footer > div p {
-     font-size: 0.75rem;
+footer > p {
+     background-color: var(--silver);
+     color: var(--raisin-black);
+     font-weight: 500;
+     margin-top: 1rem;
+     padding: 0.125rem;
+     width: 100vw;
+}
+
+footer p {
+     font-size: clamp(0.75rem, 0.25rem + 0.50vw, 1rem);
      text-align: center;
-}
-
-section {
-     margin: 1rem;
-     padding: 1rem;
-}
-
-h1 {
-     font-size: 1.5rem;
-     margin: 0.5rem;
-     padding: 0.75rem;
-     text-align: center;
-}
-
-h1 > strong {
-     color: var(--crimson);
-}
-
-h2 {
-     font-size: 1.25rem;
-     padding: 0.75rem;
-     margin-bottom: 0.5rem;
-     text-align: center;
-}
-
-a {
-     color: var(--silver);
-     text-decoration: none;
-}
-a:hover {
-     background-color: var(--battleship-gray-1);
-     border-radius: 1rem;
-     line-height: 1.5rem;
-     margin: 0.25rem 0;
-     padding: 0.5rem;
-     text-transform: uppercase;
-}
-
-em {
-     font-style: italic;
-}
-
-li {
-     font-size: 0.95rem;
-     padding-bottom: 0.5rem;
-     text-align: left;
-}
-
-p {
-     padding: 0.5rem 0;
-     text-align: justify;
-}
-
-ul {
-     list-style: circle;
-     padding: 0.25rem 0 0 2.25em;
 }
 
 @media screen and (min-width: 640px) {
+     footer {
+          position: absolute;
+     }
+
+     footer > div {
+          align-items: center;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          margin: 0 1rem;
+     }
+
+     footer > div > p {
+          padding: 0 1rem;
+     }
+
+     section {
+          margin: 0 auto;
+          max-width: clamp(30rem, 7.5rem + 2.5vw, 85.375rem);
+          width: 100%;
+     }
+}
+
+/* @media screen and (max-width: 640px) {
      header > nav > ul > li {
-          font-size: 1.25rem;
+          font-size: 1rem;
      }
 
      section {
@@ -141,11 +176,11 @@ ul {
      }
 
      footer > div p {
-          font-size: 1.25rem;
+          font-size: 1rem;
      }
 
      a {
-          font-size: 1.5rem;
+          font-size: 1.25rem;
      }
      a:hover {
           background-color: var(--battleship-gray-1);
@@ -157,27 +192,27 @@ ul {
      }
 
      h1 {
-          font-size: 3rem;
+          font-size: 2rem;
           margin: 0 1rem;
      }
 
      h2 {
-          font-size: 2.5rem;
+          font-size: 1.75rem;
      }
 
      p {
-          font-size: 1.5rem;
+          font-size: 1.25rem;
      }
 
      li {
-          font-size: 1.5rem;
+          font-size: 1.25rem;
           padding: 1rem;
      }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
      header > nav > ul > li {
-          font-size: 2.25rem;
+          font-size: 1rem;
      }
 
      section {
@@ -196,11 +231,11 @@ ul {
      }
 
      footer > div p {
-          font-size: 2.25rem;
+          font-size: 1rem;
      }
 
      a {
-          font-size: 2.5rem;
+          font-size: 1.25rem;
      }
      a:hover {
           background-color: var(--battleship-gray-1);
@@ -212,26 +247,26 @@ ul {
      }
 
      h1 {
-          font-size: 5rem;
+          font-size: 3rem;
           margin: 3rem;
           padding: 6rem;
      }
 
      h2 {
-          font-size: 4rem;
+          font-size: 2.25rem;
      }
 
      p {
-          font-size: 2.5rem;
+          font-size: 1.25rem;
      }
 
      li {
-          font-size: 2.5rem;
+          font-size: 1.25rem;
           padding: 1rem;
      }
 }
 
-@media screen and (min-width: 1366px) and (min-height: 768px) {
+@media screen and (min-width: 1366px) {
      header > nav > ul {
           align-items: center;
           flex-flow: row nowrap;
@@ -239,7 +274,7 @@ ul {
      }
 
      header > nav > ul > li {
-          font-size: 1rem;
+          font-size: 0.5rem;
      }
 
      section {
@@ -308,4 +343,4 @@ ul {
           font-size: 1.25rem;
           padding: 1rem;
      }
-}
+} */
