@@ -1,3 +1,6 @@
+body.body_modulo_02 > section.modulo_02__section a {
+     color: var(--crimson);
+}
 
 body.body_modulo_02
      > section.modulo_02__introducao_git
@@ -16,7 +19,9 @@ body.body_modulo_02
      > div.modulo_02__introducao_git__article_conceitos_git__container
      > div.modulo_02__introducao_git__article_conceitos_git__container__exemplo_codigo
      > code {
+     font-size: clamp(0.75rem, 0.25rem + 0.5vw, 1rem);
      line-height: 2.5rem;
+     text-align: left;
 }
 
 body.body_modulo_02
@@ -58,7 +63,8 @@ body.body_modulo_02
      > code
      > small {
      color: #f78dbb;
-     font-size: 0.95rem;
+     font-size: clamp(0.625rem, 0.25rem + 0.25vw, 0.95rem);
+     text-align: left;
 }
 
 /* Seção: modulo_02__exercicio */
@@ -67,6 +73,7 @@ body.body_modulo_02
      > article.modulo_02__exercicio__article
      > div.modulo_02__exercicio__article__container_code {
      align-items: flex-start;
+     box-sizing: border-box;
      display: flex;
      flex-flow: column nowrap;
      gap: 1.5rem;
@@ -86,7 +93,10 @@ body.body_modulo_02
      > article.modulo_02__exercicio__article
      > div.modulo_02__exercicio__article__container_code
      > code {
+     box-sizing: inherit;
+     font-size: clamp(0.75rem, 0.25rem + 0.5vw, 1rem);
      line-height: 2.5rem;
+     text-align: left;
 }
 
 body.body_modulo_02
@@ -123,10 +133,12 @@ body.body_modulo_02
      > div.modulo_02__exercicio__article__container_code
      > code
      > small {
+     box-sizing: inherit;
      color: #f78dbb;
-     font-size: 0.95rem;
+     font-size: clamp(0.625rem, 0.25rem + 0.25vw, 0.95rem);
+     text-align: left;
 }
 
-body.body_modulo_02 > footer {
-     position: static;
+body.body_modulo_02 > footer.rodape_modulo-02 {
+     position: relative;
 }
