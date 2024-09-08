@@ -1,5 +1,9 @@
 @import url(formulario_cadastro.css);
 
+body.body_modulo_03 > section.modulo_03__section a {
+     color: var(--crimson);
+}
+
 body.body_modulo_03
      > section.modulo_03__section
      > article.modulo_03__section__article
@@ -42,6 +46,6 @@ body.body_modulo_03
      font-weight: 500;
 }
 
-body.body_modulo_03 > footer {
-     position: static;
+body.body_modulo_03 > footer.rodape_modulo-03 {
+     position: relative;
 }
