@@ -1,0 +1,51 @@
+@import url(formulario_cadastro.css);
+
+body.body_modulo_03 > section.modulo_03__section a {
+     color: var(--crimson);
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe {
+     list-style: none;
+     margin: 0 auto;
+     padding: 0;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe
+     > li.modulo_03__section__article__lista_sintaxe__itens {
+     background-color: #0d0b0b6e;
+     border-radius: 0.5rem;
+     padding: 1.5rem;
+     width: 100%;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe
+     > li.modulo_03__section__article__lista_sintaxe__itens
+     > code {
+     color: #00ff00;
+}
+
+body.body_modulo_03
+     > section.modulo_03__section
+     > article.modulo_03__section__article
+     > div.modulo_03__section__article__container
+     > ul.modulo_03__section__article__lista_sintaxe
+     > li.modulo_03__section__article__lista_sintaxe__itens
+     span {
+     font-weight: 500;
+}
+
+body.body_modulo_03 > footer.rodape_modulo-03 {
+     position: relative;
+}

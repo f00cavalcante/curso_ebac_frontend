@@ -1,0 +1,21 @@
+body.body_modulo_04 > footer.rodape_modulo-04 {
+     margin-top: 10rem;
+     position: relative;
+}
+
+body.body_modulo_04
+     > section.modulo_04__section
+     > article.modulo_04__section__article
+     > div.modulo_04__section__article__container_code {
+     background-color: #0d0b0b6e;
+     border-radius: 1rem;
+     margin: 1rem 0;
+     padding: 2.5rem;
+}
+
+body.body_modulo_04
+     > section.modulo_04__section
+     > article.modulo_04__section__article
+     > div.modulo_04__section__article__container_code > code > strong {
+          color: orange;
+     }

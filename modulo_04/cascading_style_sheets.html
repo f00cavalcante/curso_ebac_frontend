@@ -51,31 +51,154 @@
                     principais conceitos.
                </p>
                <article class="modulo_04__section__article">
-                    <h2 class="modulo_04__section__article__titulo">
+                    <h2 class="modulo_04__section__article__h2">
                          Introdução CSS - Super síntese 🙃
                     </h2>
-                    CSS, apesar de não ser uma lingaugem de programação, é uma lingaugem em cascata utilizada para gerar estilos às páginas HTML por meio dos seus elementos (tags) declarados.
-                    O processo de estilização ocorre com a definição de cada elemento como blocos, e estes, por sua vez, recebem as customizações, e aplicações de processos hierarquicos, e também, herança (pai e filho) para gerar a replicação de todas as customizações desejadas para determinada página HTML.
 
-                    Atualmente, com o CSS3, é possível utilizar pseudo-classes, importação de conteúdos, declarações de variáveis identificação de IDs e classes HTML, para um melhor direcionamento dos estilos a serem aplicados.
+                    <p class="modulo_04__section__article__paragrafo">
+                         CSS, apesar de não ser uma linguagem de programação, é
+                         uma linguagem em cascata utilizada para gerar estilos
+                         às páginas HTML por meio dos seus elementos (tags)
+                         declarados. O processo de estilização ocorre com a
+                         definição de cada elemento como blocos, e estes, por
+                         sua vez, recebem as customizações, e aplicações de
+                         processos hierárquico, e também, herança (pai e filho)
+                         para gerar a replicação de todas as customizações
+                         desejadas para determinada página HTML.
+                    </p>
 
-                    A sintaxe do CSS, corresponde a identificação do elemento/ID/classe, seguida das propriedades a serem modificadas no bloco da tag HTML. Exemplo:
-                    elemento {
-                         color: blue;
-                    }
+                    <p class="modulo_04__section__article__paragrafo">
+                         Atualmente, com o CSS3, é possível utilizar
+                         pseudo-classes, importação de conteúdos, declarações de
+                         variáveis, identificação de IDs e classes HTML, para um
+                         melhor direcionamento dos estilos a serem aplicados.
+                    </p>
 
-                    Um ponto importante seria que as propriedades de estilos também podem ser aplicadas pelos próprios elementos HTML através da palavra reservada "style" e suas modificações inseridas entre aspas, conforme uma string, por assim dizer.
+                    <p class="modulo_04__section__article__paragrafo">
+                         A sintaxe do CSS, corresponde a identificação do
+                         elemento/ID/classe, seguida das propriedades a serem
+                         modificadas no bloco da tag HTML. Exemplo:
+                    </p>
 
-                    Neste exemplo, está sendo selecionado o elemento, e modificado sua cor para azul.
+                    <div class="modulo_04__section__article__container_code">
+                         <code>elemento <strong>{ color: blue; }</strong></code>
+                    </div>
 
-                    No conteúdo deste módulo, a proposta foi a aplicação de estilizações de artigos, por meio do elemento <article> criando blocos como uma página de notícias.
-                         O exercício proposto seria efetuar a criação e estilização de mais dois artigos para aplicação das propriedades CSS.
+                    <p class="modulo_04__section__article__paragrafo">
+                         Neste exemplo, está sendo selecionado o elemento, e
+                         modificado sua cor para azul.
+                    </p>
 
-                         Para visualizar o resultado, poderá acessar este link.
+                    <p class="modulo_04__section__article__paragrafo">
+                         Um ponto importante seria que as propriedades de
+                         estilos também podem ser aplicadas pelos próprios
+                         elementos HTML através da palavra reservada "style" e
+                         suas modificações inseridas entre aspas, conforme uma
+                         string, por assim dizer. Exemplo:
+                    </p>
 
-                         A proposta deste exercício seria criar uma branch com o nome TAL, e estilizar estes dois artigos, e publicar no github.
-                         Abaixo, os comandos git utlizados.
+                    <div class="modulo_04__section__article__container_code">
+                         <code
+                              >&lt;p style="color: blue"&gt;
+                              <strong>Conteúdo do parágrafo</strong>
+                              &lt;/p&gt;</code
+                         >
+                    </div>
+
+                    <h3>Propriedades</h3>
+
+                    <p class="modulo_04__section__article__paragrafo">
+                         O processo para determinar a estilização em determinado
+                         elemento HTML, e as ações a ele envolvido sempre
+                         ocorrerão por meio das propriedades, e sua sintaxe
+                         será:
+                    </p>
+                    <ul class="modulo_04__section__article__lista">
+                         <li class="modulo_04__section__article__lista__item">
+                              especificar o element
+                         </li>
+                         <li class="modulo_04__section__article__lista__item">
+                              que poderá ser por meio
+                         </li>
+                         <ul
+                              class="modulo_04__section__article__lista__sublista"
+                         >
+                              <li
+                                   class="modulo_04__section__article__lista__sublista__item"
+                              >
+                                   do seu nome (palavra reservada)
+                              </li>
+                              <li
+                                   class="modulo_04__section__article__lista__sublista__item"
+                              >
+                                   classe
+                              </li>
+                              <li
+                                   class="modulo_04__section__article__lista__sublista__item"
+                              >
+                                   ID
+                              </li>
+                         </ul>
+                         <li class="modulo_04__section__article__lista__item">
+                              determinar a propriedade a ser alterada
+                         </li>
+                         <li class="modulo_04__section__article__lista__item">
+                              determinar seu valor
+                         </li>
+                    </ul>
+
+                    <p class="modulo_04__section__article__paragrafo">
+                         Neste caso, a alteração da cor do texto em determinado
+                         elemento, será da seguinte forma:
+                    </p>
+                    <div class="modulo_04__section__article__container_code">
+                         <code> a <strong>{ color: red; }</strong> </code>
+                    </div>
+
+                    <h3>Pseudo-classe</h3>
+
+                    <p class="modulo_04__section__article__paragrafo">
+                         Através do CSS também é possível efetuar estilizações a
+                         partir de ações praticadas nos elementos criados no
+                         arquivo HTML. Isto, ocorre por meio das pseudo-classes.
+                         Neste processo, seria possível determinar qual ação
+                         deverá ocorrer ao passar o mouse sobre determinada tag
+                         contida na página, e afins. Neste exemplo descrito,
+                         seria possível estilizar a alteração de cor em
+                         determinado link, representado pelo elemento `a` ao
+                         receber a interação do mouse.
+                    </p>
+                    <div class="modulo_04__section__article__container_code">
+                         <code>a:hover <strong>{ color: blue; }</strong></code>
+                    </div>
+
+                    <h2 class="modulo_04__section__article__h2">Exercício</h2>
+
+                    <p class="modulo_04__section__article__paragrafo">
+                         No conteúdo deste módulo, a proposta foi a aplicação de
+                         estilizações de artigos, por meio do elemento `article`
+                         criando blocos como uma página de notícias. O exercício
+                         proposto seria efetuar a criação e estilização de mais
+                         dois artigos para aplicação das propriedades CSS. Para
+                         visualizar o resultado, poderá acessar este link. Nesta
+                         execução foi criado uma branch com o nome TAL, e
+                         estilizado estes dois artigos, e publicar no github.
+                         Abaixo, os comandos git utilizados.
+                    </p>
                </article>
           </section>
+          <footer class="rodape_modulo-04">
+               <div class="rodape_modulo-04__container">
+                    <p class="rodape_modulo-04__container__paragrafo">
+                         Sobre o projeto
+                    </p>
+                    <p class="rodape_modulo-04__container__paragrafo">
+                         Desenvolvido por f00Cavalcante - 2024
+                    </p>
+               </div>
+               <p class="rodape_modulo-04__paragrafo">
+                    🚧 ❗️ EM CONSTRUÇÃO ❗️ 🚧
+               </p>
+          </footer>
      </body>
 </html>
