@@ -33,9 +33,13 @@ header > nav > ul > li {
      padding: 0.25rem;
 }
 
+header > nav > ul > li > a {
+     color: var(--salmao);
+}
+
 body {
      background-color: var(--cinza-super-escuro);
-     color: var(--cinza);
+     color: var(--cinza-super-escuro);
      font-family: var(--font_default);
      font-size: 16px;
      font-weight: 300;
@@ -49,7 +53,7 @@ body {
 h1 {
      color: var(--rosa-claro);
      font-size: clamp(1.75rem, 0.5rem + 1vw, 3rem);
-     font-weight: 700;
+     font-weight: 900;
      margin-bottom: 1.5rem;
      padding: 1rem;
      text-align: center;
@@ -57,18 +61,16 @@ h1 {
 
 h2 {
      border-bottom: solid 0.05rem var(--salmao);
-     color: var(--salmao);
      font-size: clamp(1.25rem, 0.5rem + 1vw, 2.5rem);
-     font-weight: 500;
+     font-weight: 700;
      margin-bottom: 1rem;
      padding: 1rem;
      text-align: center;
 }
 
 h3 {
-     color: var(--salmao);
      font-size: clamp(0.75rem, 0.5rem + 0.75vw, 2rem);
-     font-weight: 300;
+     font-weight: 500;
      margin-bottom: 0.75rem;
      padding-bottom: 0.75rem;
 }
@@ -76,12 +78,15 @@ h3 {
 p {
      font-size: clamp(0.75rem, 0.5rem + 0.5rem, 1.25rem);
      font-weight: 300;
+     margin-bottom: 0.75rem;
 }
 
 section {
+     border: solid 0.5rem var(--salmao);
+     border-radius: 2.5rem;
      padding: 3rem;
-     margin: 0rem 1rem;
-     width: 100%;
+     margin: 5rem auto;
+     width: 95%;
      text-align: center;
 }
 
@@ -90,6 +95,35 @@ section::after {
      display: inline-block;
      height: 0;
      width: 100%;
+}
+
+section#sports {
+     background-color: #96b7a2;
+}
+section#sports a {
+     background-color: #8f8f68;
+}
+
+section#economy {
+     background-color: #a6aa56;
+}
+section#economy a {
+     background-color: #767751;
+}
+
+section#entretenimento {
+     background-color: #b4b969;
+}
+section#entretenimento a {
+     background-color: #5e5e3a;
+}
+
+section#tecnologia {
+     background-color: #829b86;
+}
+
+section#tecnologia a {
+     background-color: #a7a77f;
 }
 
 article {
@@ -110,7 +144,10 @@ article > header {
 }
 
 article a {
-     color: var(--salmao);
+     border: solid 0.125rem var(--salmao);
+     border-radius: 0.5rem;
+     color: var(--cinza-super-escuro);
+     padding: 0.5rem;
 }
 
 a {
@@ -120,8 +157,7 @@ a {
      text-decoration: none;
 }
 a:hover {
-     color: var(--vermelho);
-     border-bottom: solid 0.125rem var(--vermelho);
+     font-weight: 500;
 }
 
 img {
@@ -148,6 +184,7 @@ footer > ul {
 }
 
 footer > ul > li {
+     color: var(--cinza);
      display: inline-block;
      font-size: 0.75rem;
      padding: 0.5rem;
