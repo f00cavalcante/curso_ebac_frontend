@@ -16,6 +16,20 @@ body.body_modulo_04
 body.body_modulo_04
      > section.modulo_04__section
      > article.modulo_04__section__article
-     > div.modulo_04__section__article__container_code > code > strong {
-          color: orange;
-     }
+     > div.modulo_04__section__article__container_code
+     > code
+     > strong {
+     color: orange;
+}
+
+body.body_modulo_04
+     > section.modulo_04__section
+     > article.modulo_04__section__article-exercicio
+     > p.modulo_04__section__article__paragrafo
+     > strong {
+     background-color: var(--silver);
+     border-radius: 10%;
+     color: var(--raisin-black);
+     font-weight: 500;
+     padding: 0rem 0.5rem;
+}
