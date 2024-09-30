@@ -1,0 +1,61 @@
+section.body_modulo_05__section p {
+     padding: 0.25rem 0rem;
+     margin-bottom: 0.5rem;
+}
+
+section.body_modulo_05__section button {
+     border-radius: 0.75rem;
+     cursor: pointer;
+     font-weight: 500;
+     padding: 0.5rem;
+     text-transform: uppercase;
+}
+
+section.body_modulo_05__section_principal > h1.titulo {
+     line-height: 3rem;
+}
+
+section.body_modulo_05__section_formulario > form.section_formulario__form {
+     display: flex;
+     flex-flow: column nowrap;
+     gap: 1rem;
+}
+
+section.body_modulo_05__section_formulario > form.section_formulario__form > input.section_formulario__form__input {
+     border-radius: 0.75rem;
+     font-family: var(--font_default);
+     font-size: 0.9rem;
+     margin-bottom: 0.25rem;
+     padding: 0.5rem 0.75rem;
+}
+section.body_modulo_05__section_formulario > form.section_formulario__form > input.section_formulario__form__input::placeholder {
+     font-size: 0.75rem;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+section.body_modulo_05__section_formulario > form.section_formulario__form > textarea.section_formulario__form__textarea {
+     border-radius: 0.75rem;
+     font-family: var(--font_default);
+     font-size: 0.9rem;
+     height: 10rem;
+     margin-bottom: 0.25rem;
+     padding: 0.75rem;
+     resize: none;
+}
+section.body_modulo_05__section_formulario > form.section_formulario__form > textarea.section_formulario__form__textarea::placeholder {
+     font-size: 0.75rem;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.section_resultado_formulario__conteudo_do_textarea_convertido_em_paragrafo {
+     background-color: cyan;
+     border: solid 0.5rem pink;
+     border-radius: 0.5rem;
+     font-size: 1.25rem;
+     font-weight: 500;
+     margin: 1rem auto;
+     text-transform: uppercase;
+     width: 100%;
+}

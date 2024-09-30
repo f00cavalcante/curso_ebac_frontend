@@ -1,0 +1,8 @@
+/* Conteúdo desenvovlido durante o móduo 05 */
+@import url(./loja_games/default.css);
+@import url(./loja_games/cabecalho_e_rodape.css);
+@import url(./loja_games/contato.css);
+@import url(./loja_games/sobre_a_loja.css);
+
+/* Exercício */
+@import url(./exercicio_formulario/formulario.css);
