@@ -3,15 +3,11 @@ body.body_loja_games > section.loja_games__contato {
      flex-flow: column nowrap;
 }
 
-body.body_loja_games
-     > section.loja_games__contato
-     > h2.loja_games__contato__titulo {
+body.body_loja_games > section.loja_games__contato > h2.loja_games__contato__titulo {
      margin-bottom: 1.5rem;
 }
 
-body.body_loja_games
-     > section.loja_games__contato
-     > div.loja_games__contato__container_geral {
+body.body_loja_games > section.loja_games__contato > div.loja_games__contato__container_geral {
      align-items: start;
      display: flex;
      flex-flow: line nowrap;
@@ -20,19 +16,13 @@ body.body_loja_games
      width: 100%;
 }
 
-body.body_loja_games
-     > section.loja_games__contato
-     > div.loja_games__contato__container_geral
-     h3.loja_games__contato__subtitulo {
+body.body_loja_games > section.loja_games__contato > div.loja_games__contato__container_geral h3.loja_games__contato__subtitulo {
      font-size: 1.25rem;
      font-weight: 500;
      margin-bottom: 2.5rem;
 }
 
-body.body_loja_games
-     > section.loja_games__contato
-     > div.loja_games__contato__container_geral
-     > div.container_gera__secoes {
+body.body_loja_games > section.loja_games__contato > div.loja_games__contato__container_geral > div.container_gera__secoes {
      max-width: 33.33%;
      width: 100%;
 }
