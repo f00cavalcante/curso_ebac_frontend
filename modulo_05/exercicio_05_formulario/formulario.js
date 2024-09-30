@@ -29,7 +29,7 @@ function criarRespostaFormularioEmSection(textareaMessage) {
 
      /* 
      ! 
-     Tentei efetuar a criação do elemento da forma abaixo, aproveitando a referencia do processo de criar o elemento do parágrafo, alterando apenas o nome da variável que seria com a mesma tag alterando apenas seu conteúdo, mas o JavaScript não permite.      Ainda não sei o motivo, mas irei pesquisar melhor.
+     Tentei efetuar a criação do elemento da forma abaixo, aproveitando a referencia do processo de criar o elemento do parágrafo, alterando apenas o nome da variável que seria com a mesma tag alterando apenas seu conteúdo, mas o JavaScript não permite. Ainda não sei o motivo, mas irei pesquisar melhor.
 
      let paragrafoUau = sectionRespostaFormulario_paragrafo,
           paragrafoInicial = sectionRespostaFormulario_paragrafo,
@@ -39,6 +39,7 @@ function criarRespostaFormularioEmSection(textareaMessage) {
      let paragrafoUau = document.createElement("p");
      let paragrafoInicial = document.createElement("p");
      let paragrafoComTextarea = document.createElement("p");
+     let paragrafoFinal = document.createElement("p");
 
      paragrafoUau.textContent = "UAU";
      paragrafoUau.style.cssText = `
@@ -51,10 +52,12 @@ function criarRespostaFormularioEmSection(textareaMessage) {
      `;
 
      paragrafoInicial.textContent =
-          "Abaixo, encontra-se a mensagem que preencher no TextArea. Está estilizada botinha para ganhar um destaque e demonstrar a aplicabilidade e alguns conhecimentos de JavaScript. Caso queira saber mais sobre, poderá consultar o projeto que está hospedado no GitHub.";
+          "Abaixo, encontra-se a mensagem que preencheu no TextArea. Está estilizada botinha para ganhar um destaque e demonstrar a aplicabilidade e alguns conhecimentos de JavaScript. Caso queira saber mais sobre, poderá consultar o projeto que está hospedado no GitHub.";
 
      paragrafoComTextarea.className = "section_resultado_formulario__conteudo_do_textarea_convertido_em_paragrafo";
      paragrafoComTextarea.textContent = textareaMessage;
+
+     paragrafoFinal.textContent = "Clique no botão abaixo para recarregar a página e seguir com a vida. 🙂";
 
      sectionRespostaFormulario_button.className = "section_resultado_formulario__button";
      sectionRespostaFormulario_button.setAttribute("type", "button");
@@ -82,5 +85,6 @@ function criarRespostaFormularioEmSection(textareaMessage) {
      formularioResposta.appendChild(paragrafoUau);
      formularioResposta.appendChild(paragrafoInicial);
      formularioResposta.appendChild(paragrafoComTextarea);
+     formularioResposta.appendChild(paragrafoFinal);
      formularioResposta.appendChild(sectionRespostaFormulario_button);
 }

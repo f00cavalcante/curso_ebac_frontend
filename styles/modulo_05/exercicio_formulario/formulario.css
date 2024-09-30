@@ -11,6 +11,10 @@ section.body_modulo_05__section button {
      text-transform: uppercase;
 }
 
+section.body_modulo_05__section_principal > h1.titulo {
+     line-height: 3rem;
+}
+
 section.body_modulo_05__section_formulario > form.section_formulario__form {
      display: flex;
      flex-flow: column nowrap;
