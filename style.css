@@ -2,6 +2,7 @@
 @import url(styles/modulo_03/modulo_03.css);
 @import url(styles/modulo_04/modulo_04.css);
 @import url(styles/modulo_05/modulo_05.css);
+@import url(styles/modulo_06/modulo_06.css);
 
 /* fontes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -54,7 +55,7 @@ header > nav > ul > li {
 }
 
 a {
-     color: var(--silver);
+     color: var(--crimson);
      font-size: clamp(0.875rem, 0.25rem + 0.5vw, 1.125rem);
      text-decoration: none;
 }
@@ -84,9 +85,6 @@ h1 {
      text-align: center;
 }
 
-h1 > strong {
-     color: var(--crimson);
-}
 
 h2 {
      font-size: clamp(1.125rem, 0.5rem + 0.75vw, 2.125rem);
@@ -115,6 +113,7 @@ li {
 p {
      font-size: clamp(0.875rem, 0.25rem + 0.5vw, 1.125rem);
      line-height: 1.75rem;
+     text-align: justify;
 }
 
 p > em {
@@ -124,6 +123,10 @@ p > em {
 ul {
      list-style-type: disc;
      padding: 1rem 3rem;
+}
+
+strong {
+     color: var(--crimson);
 }
 
 section {

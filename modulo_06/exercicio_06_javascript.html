@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+          <link rel="stylesheet" href="../reset.css" />
+          <link rel="stylesheet" href="../style.css" />
+
+          <script src="script_calcular_area.js" defer></script>
+
+          <title>Cálculo Área</title>
+     </head>
+     <body id="modulo_06" class="body_modulo_06_exercicio">
+          <main class="body_modulo_06_exercicio__main">
+               <h1 class="body_modulo_06_exercicio__titulo">Cálculo Área</h1>
+               <section class="body_modulo_06_exercicio__section_descricao">
+                    <p>Efetuar o cálculo da área com base nos valores enviados pelos parâmetros da função <strong>multiplicarValoresArea</strong> criada em JavaScript.</p>
+
+                    <form class="body_modulo_06_exercicio__section_descricao__form_area">
+                         <div class="body_modulo_06_exercicio__section_descricao__form_area__container">
+                              <label for="base" class="body_modulo_06_exercicio__section_descricao__form_area__container__item">Valor da base:</label>
+                              <input type="text" name="base" id="base" class="body_modulo_06_exercicio__section_descricao__form_area__container__item body_modulo_06_exercicio__section_descricao__form_area__container__input" />
+                         </div>
+                         <div class="body_modulo_06_exercicio__section_descricao__form_area__container">
+                              <label for="altura" class="body_modulo_06_exercicio__section_descricao__form_area__container__item">Valor da altura:</label>
+                              <input type="text" name="altura" id="altura" class="body_modulo_06_exercicio__section_descricao__form_area__container__item body_modulo_06_exercicio__section_descricao__form_area__container__input" />
+                         </div>
+                         <button type="button" id="button_calcularArea" class="body_modulo_06_exercicio__section_descricao__form_area__button_calcular_area">Calcular</button>
+                    </form>
+               </section>
+               <section class="body_modulo_06_exercicio__section_resultado section_resultado" id="section_resultado">
+                    <h2 class="section_resultado__titulo">Resultado</h2>
+                    <div class="section_resultado__container">
+                         <p>O calculo da área consiste na multiplicação da base pela altura, desta forma, será possível determinar a metragem quadrada do ambiente que deseja consultar.</p>
+                         <p>Para uma melhor representação, abaixo, encontra-se de uma div estilizada apenas com suas bordas desenhadas, com leve arredondamento em suas pontas, apenas para ficar mais bonito.</p>
+                    </div>
+                    <div id="section_resultado__container_02" class="section_resultado__container">
+                         <h3 class="section_resultado__container__titulo">Cálculo</h3>
+                         <p id="section_resultado__container_02__paragrafo_resultado"></p>
+                    </div>
+                    <div id="section_resultado__container_03" class="section_resultado__container">
+                         <h3 class="section_resultado__container__titulo">Representação gráfica</h3>
+                         <div class="section_resultado__container__sub_container">
+                              <p id="section_resultado__container_03__paragrafo_base"></p>
+                              <p id="section_resultado__container_03__paragrafo_altura"></p>
+                         </div>
+                         <p>
+                              Estas linhas com cantos arredondados possuem apenas o intuito de efetuar uma representação do que será a base a altura anteriormente inserida no formulário, portanto, mesmo que insira medidas iguais, não será
+                              criado linhas a formarem um quadrado, pois, neste momento, não seria o objetivo deste repositório.
+                              <br />
+                              Como esta página encontra-se em construção, futuramente, isto poderá ser melhor abordado.
+                              <br /><br /><br />
+                              Para realizar um novo cálculo, clique no botão abaixo. 👇🏻
+                         </p>
+                    </div>
+                    <button id="button_novo_calculo" class="body_modulo_06_exercicio__section_resultado__button_novo_calculo" type="button">Novo cálculo</button>
+               </section>
+          </main>
+     </body>
+</html>
