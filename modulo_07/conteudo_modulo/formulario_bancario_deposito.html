@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+          <link rel="stylesheet" href="../../style.css" />
+
+          <script src="./formulario_bancario_deposito.js" defer></script>
+
+          <title>Formulário: Depósito Bancário</title>
+     </head>
+     <body>
+          <header></header>
+          <h1>Depósito Bancário</h1>
+          <main>
+               <form>
+                    <div class="container_nome_beneficiario">
+                         <label for="nome_beneficiario">Nome Beneficiário</label>
+                         <input type="text" name="nome_beneficiario" id="nome_beneficiario" />
+                    </div>
+                    <div>
+                         <label for="agencia_bancaria_beneficiario">Agência Bancário</label>
+                         <input type="text" name="agencia_bancaria_beneficiario" id="agencia_bancaria_beneficiario" />
+                    </div>
+                    <div>
+                         <label for="conta_bancaria_beneficiario">Conta Bancário</label>
+                         <input type="text" name="conta_bancaria_beneficiario" id="conta_bancaria_beneficiario" />
+                    </div>
+                    <div>
+                         <label for="valor_deposito_beneficiario">Valor Depósito</label>
+                         <input type="text" name="valor_deposito_beneficiario" id="valor_deposito_beneficiario" />
+                    </div>
+                    <button type="submit" id="button_enviar_deposito">Depositar</button>
+               </form>
+          </main>
+          <footer></footer>
+     </body>
+</html>
