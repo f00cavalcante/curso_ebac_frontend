@@ -1,0 +1,62 @@
+@import url(../../modulo_07/conteudo_modulo/formulario_bancario_deposito.css);
+@import url(../../modulo_07/exercicio/exercicio_formulario_numerico.css);
+
+form {
+     margin: 5rem auto;
+     width: 50%;
+}
+form {
+     align-items: center;
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     gap: 0.125rem;
+}
+
+form > div {
+     margin: 0rem auto;
+     padding: 0.5rem;
+     text-align: justify;
+     width: 65%;
+}
+/* form > div::after {
+     display: inline-block;
+     content: "";
+     width: 100%;
+} */
+
+form > div > * {
+     display: inline-block;
+     padding: 0.125rem;
+     text-align: center;
+     width: 45%;
+}
+
+form > div > label {
+     text-align: justify;
+}
+form > div > input {
+     border-radius: 0.5rem;
+     padding: 0rem 0.5rem;
+     text-align: justify;
+     width: 50%;
+}
+
+button {
+     border-radius: 0.5rem;
+     cursor: pointer;
+     font-size: 0.75rem;
+     font-weight: 500;
+     margin: 1.5rem auto;
+     padding: 0.5rem;
+     text-transform: uppercase;
+     width: 25%;
+}
+
+form input.input_error {
+     border: 2.5px solid var(--crimson);
+     color: var(--crimson);
+     font-weight: 500;
+     outline-offset: var(--crimson);
+
+}
