@@ -1,0 +1,82 @@
+body {
+     position: relative;
+     height: 100vh;
+     width: 100vw;
+}
+
+main {
+     margin: 2.5rem auto;
+     height: 100%;
+     width: 75%;
+}
+
+main > h1 {
+     text-align: center;
+     width: 100%;
+}
+
+main > p {
+     margin: 1rem auto;
+     width: 50%;
+}
+
+main > form {
+     margin: 3rem auto;
+     width: 50%;
+}
+
+main > form > div {
+     align-items: center;
+     display: flex;
+     flex-flow: row nowrap;
+     gap: 1rem;
+     justify-content: center;
+     /* width: 100%; */
+}
+
+main > form > div > label {
+     text-align: right;
+     width: 15rem;
+}
+
+main > form > div > input {
+     width: 5rem;
+}
+
+main > div {
+     margin: 3rem auto;
+     text-align: center;
+     width: 50%;
+}
+
+main > div.exibir_container {
+     display: block;
+}
+main > div.ocultar_container {
+     display: none;
+}
+
+footer.modulo_07_exercicio {
+     position: relative;
+}
+
+button#formulario_campos_numericos__button_alguma_coisa {
+     cursor: pointer;
+     width: 7.5rem;
+}
+
+button#formulario_campos_numericos__button_alguma_coisa:hover {
+     background-color: black;
+     color: white;
+}
+
+strong {
+     font-weight: 700;
+}
+
+ul {
+     font-size: 1rem;
+     margin-left: 1rem;
+     padding: 0.5rem;
+     text-align: justify;
+}
