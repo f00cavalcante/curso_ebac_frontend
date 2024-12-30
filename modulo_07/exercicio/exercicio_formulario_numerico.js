@@ -16,7 +16,7 @@ formulario_campos_numericos.addEventListener("submit", function (event) {
 
      desabilitar_itens_formulario();
 
-     criar_div_com_resposta_do_formulario(campo_a, campo_b);
+     criar_div_com_resposta_do_formulario(parseInt(campo_a), parseInt(campo_b));
 
      this.reset();
 });
