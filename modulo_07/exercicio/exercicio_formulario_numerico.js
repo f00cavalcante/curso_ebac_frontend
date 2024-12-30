@@ -16,7 +16,7 @@ formulario_campos_numericos.addEventListener("submit", function (event) {
 
      desabilitar_itens_formulario();
 
-     criar_div_com_resposta_do_formulario(campo_a, campo_b);
+     criar_div_com_resposta_do_formulario(parseInt(campo_a), parseInt(campo_b));
 
      this.reset();
 });
@@ -75,7 +75,7 @@ function criar_div_com_resposta_do_formulario(campo_a, campo_b) {
 
      lista_com_respostas_do_formulario__item_tres.innerHTML = `
           <p>Publicar no GitHub através de uma branch chamada <strong>exercicio_html_js</strong>.</p>
-          <p>Esta branch poderá ser acessada através deste <a>link</a></p>
+          <p>Esta branch poderá ser acessada através deste <a href="https://github.com/f00cavalcante/curso_ebac_frontend/commit/7634aab487d559a88d11060177100abea37d74fc" target="_blank">link</a></p>
      `;
 
      lista_com_respostas_do_formulario.appendChild(lista_com_respostas_do_formulario__item_um);
